@@ -3,13 +3,13 @@ import React from "react";
 import Directory from "../../componentes/directory/directory.components";
 import CarouselSlider from "../../componentes/carousel/carousel.components";
 
-import "./homepage.styles.scss";
+import { HomaPageContairner } from "./homepage.styles";
 
 const HomePage = () => (
-  <div className="homepage">
+  <HomaPageContairner>
     <CarouselSlider />
     <Directory />
-  </div>
+  </HomaPageContairner>
 );
 
 export default HomePage;
