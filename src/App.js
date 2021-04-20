@@ -11,7 +11,9 @@ import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up
 import CheckoutPage from "./pages/checkout/checkout.components";
 
 import Header from "./componentes/header/header.components";
+
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
+
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrUser } from "./redux/user/user.selectors";
 
