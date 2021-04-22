@@ -10,6 +10,10 @@
   padding: 0;
   margin-bottom: 20px;
   overflow: hidden;
+
+  @media screen and(max-width:800px) {
+    max-height: 20vh;
+  }
 }
 
 .slider::-webkit-scrollbar {
